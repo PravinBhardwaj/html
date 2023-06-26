@@ -1,0 +1,528 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 30px;
+    background-color:  rgb(46,50,56);
+    border-bottom: 1px solid   rgb(52, 55, 59);
+    display: flex;
+    justify-content: space-between;
+}
+.headerdiv1{
+    margin-left: 145px;
+}
+.headerdiv2{
+    margin-right: 145px;
+}
+.headerdiv1 i{
+    margin: 5px 10px;
+    color:#a4a6aa; 
+}
+.headerdiv1 a{
+    margin: 10px;
+    text-decoration: none;
+    color:#a4a6aa; 
+    font-family: "Source Sans Pro", sans-serif;
+}
+.headerdiv2 a{
+    margin: 5px 10px;
+    text-decoration: none;
+    color:#a4a6aa;
+}
+.headerdiv2 li{
+    margin: 5px 10px;
+    list-style: none;
+    display: inline-block;
+}
+nav{
+    background-color: rgb(46,50,56);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.nav ul{
+    margin-left: 500px;
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+    font-size: 18px;
+    font-family: "Source Sans Pro", sans-serif;
+    background-attachment: fixed;
+}
+nav ul li a:hover{
+    color: rgb(72,105,232) ;
+}
+
+.quote{
+    color: white;
+    border-radius: 4px;
+    border: 1px solid ;
+    background-color: rgb(72,105,232);
+    padding: 10px 15px;
+    font-size: 13px;
+    border: none;
+    margin-left: 20px;
+}
+.quote a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+.quote .ddd{
+font-size: 16px;
+font-weight: 500;
+margin-left: 5px;
+}
+.enov{
+    margin-right: 300px;
+}
+.enov h1{
+    color: white;
+}
+
+.service_background{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    /* background-repeat: no-repeat 50% 50%; */
+     background: url(../IMAGE/banner-1.jpg) no-repeat 50% 50% ; 
+     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url(../IMAGE/banner-1.jpg);
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+   position: relative;
+ }
+ .service_body{
+    color: white;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+}
+.brandicon{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255,255,255);
+}
+.imgiconbox{
+    padding-top:80px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.iconimgdiv{
+    width:22%;
+    height: 100px;
+    background-color:rgb(255,255,255);
+    margin: 30px 10px;
+    text-align:center;
+    padding: 30px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.brand_div i{
+    font-size: 45px;
+    color: #a4a6aa;
+    margin: 0px 30px;
+}
+.brand_text h1{
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.brand_text p{
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #7e8690;
+    text-align: left;
+}
+
+.Discuss{
+    background-color: rgba(196, 196, 196, 0.128);
+    width: 100%;
+    height: 75vh;
+   
+    
+}
+.priceplan{
+    background-image:linear-gradient(rgba(81,111,233,0.9),rgba(81,111,233,0.9)), url(/Volumes/PRAVIN/enov/IMAGE/banner-1.jpg);
+    width: 100%;
+    height: 70vh;
+    position: relative;
+   
+}
+.price_child1{
+    margin: 0 50px;
+}
+.priceplanbox1{
+    margin: 0 auto ;
+    text-align: center;
+    width: 40%;
+}
+.pricebox_child{
+    position: absolute;
+    top:50%;
+    display:flex;
+    justify-content: space-between !important;
+    margin-left: 50px;
+}
+.priceplanbox1 h1{
+    font-size: 53px;
+    font-family: "Source Sans Pro", sans-serif;
+    padding-top: 35px;
+    color: #fff;
+
+}
+.priceplanbox1 p{
+    padding: 18px;
+    font-size: 16px;
+    color:rgba(255, 255, 255, 0.7);
+    text-align: center;
+    line-height: 25px;
+    /* letter-spacing: 2px; */
+}
+.pricebox_child{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+   
+}
+.price_child1{
+    width: 300px;
+    height: 470px;
+    background-color:#fff;
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px;
+    transform: translateY(0px);
+    transition: 0.5s;
+    /* transform-origin: top; */
+   
+}
+.price_child1:hover .maxnumb{
+    
+   color: #4869e8;
+}
+.price_child1:hover{
+    transform: translateY(10px);    
+}
+.price_child1 button{
+    border-radius: 40px;
+    padding: 10px 12px;
+    border: none;
+    margin-top: 20px;
+}
+.price_child1 .basic{
+    border-radius: 40px;
+    padding: 10px 12px;
+    border: none;
+    margin-top: 20px;
+  
+}
+.price_child1 p{
+    margin: 15px;
+
+}
+.price_child1 .maxnumb{
+    font-size: 75px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    border-bottom: 1px solid rgb(237,237,237);
+    padding: 20px;
+}
+.price_child1 .maxnumb:hover{
+    color: #4869e8;
+}
+.price_child1 .dollar{
+    font-size: 22px;
+    font-weight: 400;
+}
+.price_child1 ul{
+    margin-top: 30px;
+}
+.price_child1 ul li{
+    list-style: none;
+    margin: 14px;
+}
+.price_child1 .join_now{
+    border-radius: 4px;
+    padding: 1rem 2rem;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #4869e8;
+    color: black;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.price_child1 .join_now:hover{
+    background-color: #4869e8;
+    border: none;
+    color: #fff;
+}
+.price_child1 .join_now_basic{
+    border-radius: 4px;
+    padding: 1rem 2rem;
+    font-size: 14px;
+    background-color:#4869e8;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.price_child1 .join_now_basic:hover{
+    background-color: black;
+}
+.Discusschild{
+    background-color: rgba(196, 196, 196, 0.128);
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.Discusschild_div{
+    margin-top: 25%;
+    width: 350px;
+    text-align: center;
+  
+}
+.Discusschild_div span{
+   font-size: 40px;
+   font-family: "Source Sans Pro", sans-serif;
+   color:#7e8690;
+   font-weight: 800;
+   margin: 10px 0px ;
+}
+.Discusschild_div h3{
+    font-family: "Source Sans Pro", sans-serif;
+    margin: 15px 0px;
+}
+.Discusschild_div p{
+    font-family: "Source Sans Pro", sans-serif;
+    color:#7e8690;
+    line-height: 1.5;
+    margin: 20px 0px;
+    padding-bottom: 50px;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(36,40,48);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.mainfoot{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 80px;
+}
+.mainfoot a{
+    text-decoration: none;
+    color: #7e8690;
+    /* margin: 10px; */
+}
+.mainfoot ul li{
+    list-style: none;
+    margin:10px ;
+    margin-left: 0px;
+}
+.quick h3 {
+    margin: 10px;
+}
+.quick p{
+   margin: 10px;
+}
+.comp h3{
+    margin: 10px;
+}
+.comp p{
+    margin: 10px;
+}
+.sulfur h3{
+    margin: 10px;
+    
+}
+.sulfur p{
+    margin: 10px;
+    color: #7e8690;
+}
+.sulfur span{
+margin: 10px;
+}
+.sulfur span a{
+    color: #fff;
+    font-size: 20px;
+}
+.bottom{
+    
+    padding-top: 60px;
+    /* margin-top: 50px; */
+    margin: 0 auto;
+    width: 80%;
+    border-top: 1px solid  rgba(47, 51, 59, 0.9);
+    text-align: center;
+}
+.bottom p{
+    color:#7e8690;
+}
+.bottom a{
+    color: #fff;
+    text-decoration: none;
+}
+@media screen and (Min-width:320px) and (Max-width:480px){
+    header{
+        display: none;
+    }
+    nav{
+        width: 100%;
+        height: 30px;
+    }
+    nav ul li a{
+        font-size: 10px;
+        margin: 8px;
+        display: inline-block;
+
+    }
+    .quote{
+        display: none;
+    }
+    .enov{
+        display: none;
+    }
+    .service_background{
+        width: 100%;
+        /* height: 100%; */
+        background-size: cover;
+    }
+    .service_body{
+        width: 100%;
+        /* height: 100%; */
+        margin: 0px!important;
+        text-align: center;
+
+    }
+    .brandicon{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .imgiconbox{
+        width: 100%;
+    }
+    .imgiconbox h1{
+        width:100%;
+    }
+    .imgiconbox p{
+        line-height:1.2;
+    }
+    .iconimgdiv{
+        width: 100%;
+        margin:30px 0px;
+        padding:0;
+    }
+    .priceplan{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        margin: 0px 0px ;
+        display: flex;
+        
+    }
+    body{
+        background-color: rgba(196, 196, 196, 0.128);
+    }
+    .priceplanbox1{
+        width: 100%;
+        height: 100%;
+        padding-bottom: 200px;
+        
+        
+    }
+    .pricebox_child{
+        margin: 20px 10px;
+    }
+    .price_child1{
+        width: 100%;
+        /* position: relative; */
+        margin: 10px 0px;
+        padding: 0;
+        /* margin: 0; */
+        /* top: 100%; */
+        /* right: 10%; */
+        
+    }
+    .Discuss{
+        margin-top: 1400px;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(196, 196, 196, 0.128);
+    }
+    .Discusschild{
+        background-color: rgba(196, 196, 196, 0.128);
+        width: 100%;
+        /* height: 100%; */
+        flex-direction: column;
+    }
+    .Discusschild_div{
+        margin:20px 0px;
+        width: 100%;
+        height: 100%;
+    }
+    footer{
+        /* display: block; */
+        height: 1000px;
+        /* display: flex; */
+        /* flex-direction: column; */
+
+    }
+    .mainfoot{
+        /* display: flex; */
+        flex-direction: column;
+        width: 100%;
+        /* height: 1000px; */
+        /* margin-top: 500px; */
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+    .sulfur{
+        width: 100%;
+     margin-left: 0;
+     padding-left: 0;
+     text-align: left;
+    }
+    .comp{
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+        text-align: left;
+    }
+    .quick{
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+        text-align: left;
+    }
+    .follow{
+        width: 90%;
+        margin-left: 0px;
+        padding-left: 0;
+        text-align: left;
+        /* margin: 10px; */
+    }
+}
